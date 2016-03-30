@@ -1,4 +1,4 @@
-.top{background-color:#0099CC;background:url(images/top1.jpg);overflow:hidden;display:block;height:270px;position:absolute;width:100%;top:10px;left:-10px;text-align:center;line-height:270px;float:left;}
+.top{background-color:#0099CC;background:url(images/top1.png);overflow:hidden;display:block;height:270px;position:absolute;width:100%;top:10px;left:-10px;text-align:center;line-height:270px;float:left;}
 #txt1{-webkit-border-radius:5px;height:15px;float:right;margin-right:25px;margin-top:10px;background:#EEE;}
 .ball{float:left;position:absolute;border-radius:50%;-webkit-border-radius:50%;-ms-border-radius:50%;top:70px;left:42%;height:150px;width:150px;opacity:1;box-shadow:0 0 0 4px rgba(255,255,255,1);}
 .topFont {
