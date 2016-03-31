@@ -41,7 +41,7 @@ left:39%;
 .showR2{padding-top:3em;}    /*为什么要3em才可以*/
 
 .article{height:360px;width:330px;overflow:hidden;cursor:pointer;}
- #articleTitle{float:left;}.head{font-family:"Lucida Console", Monaco, monospace;z-index:2;float:left;position:absolute;font-size:34px;font-weight:600;margin:3em 1.5em;} #article a:link{text-decoration:none;color:#000;}.head2{font-family:"微软雅黑";font-weight:600;font-size:18px;color:#001722;margin:9.5em 3.5em;position:absolute;float:left;z-index:2;}.quote{padding-top:50px;font-family:"微软雅黑";font-weight:500;font-size:15px;color:#55060E;float:left;position:absolute;z-index:3;display:none;white-space: pre-wrap;letter-spacing: 2px;line-height:2;opacity:1;}
+ #articleTitle{float:left;}.head{font-family:"Lucida Console", Monaco, monospace;z-index:2;float:left;position:absolute;font-size:38px;font-weight:600;text-align:center;width:100%;margin-top:2.4em;} #article a:link{text-decoration:none;color:#000;} #article a:hover{text-decoration:none;color:#000;}#article a:visited{text-decoration:none;color:#000;}.head2{font-family:"微软雅黑";font-weight:600;font-size:18px;color:#001722;margin:9.5em 3.5em;width:65%;text-align:center;position:absolute;float:left;z-index:2;}.quote{padding-top:50px;font-family:"微软雅黑";font-weight:500;font-size:15px;color:#55060E;float:left;position:absolute;z-index:3;display:none;white-space: pre-wrap;letter-spacing: 2px;line-height:2;opacity:1;}
 .img{opacity:0.8;float:left;z-index:1;position:relative;height:360px;width:330px;overflow:hidden;}
 @-webkit-keyframes bigger {
   0% {
