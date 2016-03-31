@@ -61,7 +61,7 @@ nav.click-nav{width:100%;padding-right:50px;height:100%;background-color:#6fc8f2
   display: inline-block;float:left;padding:2.4em 15em;line-height:50px;position:relative;color:#000;
  }
  .section{width:100%;right:10px;}
- .main{ width:86%;background:#fff;border:1px solid #ddd;border-width:0 1px;position:absolute;top:280px;float:left;right:7%;height:3300px;}
+ .main{ width:86%;background:#fff;border:1px solid #ddd;border-width:0 1px;position:absolute;top:277px;float:left;right:7%;height:3300px;}
 .navTop{font-family:"微软雅黑";font-weight:200;position:relative;display:block;height:30px;margin:1em auto;width:100%;text-align:center;right:3%;}.navTop ul{list-style-type:none;}.navTop ul li{position:relative;display:inline;margin-left:50px;color:#141414;}.navTop ul li a::after{content:'';opacity:0;top:100%;width:100%;left:0;height:4px;background:#007CF9;position:absolute;-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
