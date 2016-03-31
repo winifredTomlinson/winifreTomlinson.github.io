@@ -25,6 +25,25 @@ var t=setTimeout(function(){$("#quote").show();},500)
 	$("#cssMore").click(function(){window.open("Css文章索引.html","_self")});
 	$("#jqueryMore").click(function(){window.open("JQuery文章索引.html","_self")});
 	
+	function preloader() {  
+      
+        $("#top").style.background = "url(../images/top1.jpg) no-repeat ";  
+ 
+}  
+function addLoadEvent(func) {  
+    var oldonload = window.onload;  
+    if (typeof window.onload != 'function') {  
+        window.onload = func;  
+    } else {  
+        window.onload = function() {  
+            if (oldonload) {  
+                oldonload();  
+            }  
+            func();  
+        }  
+    }  
+}  
+addLoadEvent(preloader);  
 	
 	$("#click-nav").hide();
 	$("#ion-navigate").mouseover(function(){$("#ion-navigate").css("color","#f7ce88");}).click(function(){$("#click-nav").slideDown("slow");}).mouseout(function(){$("#ion-navigate").css("color","#000");});
