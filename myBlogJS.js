@@ -34,6 +34,25 @@ var t=setTimeout(function(){$("#quote").show();},500)
 //setTimeout("alert('5 seconds!')",5000)
 
 });
+
+	function preloader() {  
+      
+        $("#top").style.background = "url(../images/top1.jpg) no-repeat ";  
+ 
+}  
+function addLoadEvent(func) {  
+    var oldonload = window.onload;  
+    if (typeof window.onload != 'function') {  
+        window.onload = func;  
+    } else {  
+        window.onload = function() {  
+            if (oldonload) {  
+                oldonload();  
+            }  
+            func();  
+        }  
+    }  
+}  
 function showHint(){
 	var xmlhttp;
 	if (str.length==0)
