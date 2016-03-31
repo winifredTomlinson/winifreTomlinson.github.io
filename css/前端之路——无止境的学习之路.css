@@ -25,7 +25,7 @@ nav.click-nav{width:100%;padding-right:50px;height:100%;background-color:#6fc8f2
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	-webkit-font-smoothing: antialiased;right:50px;top:20px;color:#232323;}
+	-webkit-font-smoothing: antialiased;right:50px;top:20px;color:#232323;cursor:pointer;}
 .ion-close::before{content:"\f129";}
 .click-nav ul{list-style-type:none;width:100%;margin-left:auto;margin-right:auto;}.click-nav ul li {margin-top:20px;width:100%;}.click-nav ul li:first-child{margin-top:45px;}.click-nav ul li a{color:#000;text-decoration:none;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:55px;margin-top:25px;text-align:center;}.click-nav ul li a:hover,.click-nav ul li a :focus{color:#f7ce88;}
 .line-black{width:60%;height:1px;background:#000;margin-left:auto;margin-right:auto;}
@@ -54,7 +54,7 @@ nav.click-nav{width:100%;padding-right:50px;height:100%;background-color:#6fc8f2
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	-webkit-font-smoothing: antialiased;right:60px;top:29px;color:#000;}
+	-webkit-font-smoothing: antialiased;right:60px;top:29px;color:#000;cursor:pointer;}
 .ion-navigate::before{content:"\f20d";}
 
  .section{width:100%;right:10px;}
