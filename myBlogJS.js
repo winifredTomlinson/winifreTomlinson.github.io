@@ -24,12 +24,9 @@ var t=setTimeout(function(){$("#quote").show();},500)
 	$("#htmlMore").click(function(){window.open("Html文章索引.html","_self")});
 	$("#cssMore").click(function(){window.open("Css文章索引.html","_self")});
 	$("#jqueryMore").click(function(){window.open("JQuery文章索引.html","_self")});
+	$("#icon-down").click(function(){$("body").scrollTop(630);})
 	
-	
-	$("#click-nav").hide();
-	$("#ion-navigate").mouseover(function(){$("#ion-navigate").css("color","#f7ce88");}).click(function(){$("#click-nav").slideDown("slow");}).mouseout(function(){$("#ion-navigate").css("color","#000");});
-		/*$(document).not("#click-nav").click(function(){$("#click-nav").slideUp("slow");$("#ion-navigate").show("");});   */
-	$("#ion-close").mouseover(function(){$("#ion-close").css("color","#f7ce88");}).mouseout(function(){$("#ion-close").css("color","#000");}).click(function(){$("#click-nav").slideUp("slow");$("#ion-navigate").show("");});
+
 	
 //setTimeout("alert('5 seconds!')",5000)
 
