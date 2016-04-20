@@ -17,8 +17,10 @@ $(document).ready(function() {
     }
   });
   
-});
+
 $(".sp_humberger").click(function() {
+
+});
 
 	$("#article-quote1").mouseover(function(){$("#article-quote1").css({"border":"#CCC 1px solid","box-shadow":"0 0 10px #999","cursor":"pointer"});$("#article-quote1 pre").css("color","#de7d46");}).mouseout(function(){$("#article-quote1").css({"border":"#fff 1px solid","box-shadow":"0 0 10px #fff"});$("#article-quote1 pre").css("color","#333");});
 	$("#article-quote2").mouseover(function(){$("#article-quote2").css({"border":"#CCC 1px solid","box-shadow":"0 0 10px #999","cursor":"pointer"});$("#article-quote2 pre").css("color","#de7d46");}).mouseout(function(){$("#article-quote2").css({"border":"#fff 1px solid","box-shadow":"0 0 10px #fff"});$("#article-quote2 pre").css("color","#333");});
