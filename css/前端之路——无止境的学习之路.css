@@ -20,7 +20,7 @@ code{ color:#de7d46; font-family:"Lucida Console", Monaco, monospace;font-size:1
     html{ background:#eee;}
 	h1,h2,h3,h4,h5,h6{position:relative;display:block;margin:0;padding:0;}
 
-.top{width:100%;background-color:#0099CC;background:url(../images/top1.jpg);overflow:hidden;display:block;position:absolute;height:270px;top:10px;right:10px;font-family:"Lucida Console", Monaco, monospace;font-size:32px;font-weight:300;line-height:270px;float:left;text-align:center;}
+.top{width:100%;background-color:#0099CC;background:url(images/top1.jpg);overflow:hidden;display:block;position:absolute;height:270px;top:10px;right:10px;font-family:"Lucida Console", Monaco, monospace;font-size:32px;font-weight:300;line-height:270px;float:left;text-align:center;}
 .ball{float:left;top:20px;position:absolute;height:15px;width:15px;border-radius:50%;-webkit-border-radius:50%;-ms-border-radius:50%;top:70px;left:43%;height:150px;width:150px;opacity:1;box-shadow:0 0 0 4px rgba(255,255,255,1);}
 .humberger{position: fixed;
   top: 50px;
