@@ -160,7 +160,7 @@ code{ color:#1abc9c; }
   background-color:#F2F2F2;
   z-index: 9998;
 }
-.slide_menu ul{list-style-type:none;}.slide_menu ul li {margin-top:20px;width:100%;text-align:right;}.click-nav ul li:first-child{margin-top:45px;}.slide_menu ul li a{color:#000;text-decoration:none;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:22px;margin-top:25px;}.slide_menu ul li a:hover,.slide_menu ul li a :focus{color:#f7ce88;}
+.slide_menu ul{list-style-type:none;position:relative;}.slide_menu ul li {margin-top:30px;width:100%;text-align:right;position:relative;}.slide_menu ul li a{color:#000;text-decoration:none;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:22px;margin-top:25px;}.slide_menu ul li a:hover,.slide_menu ul li a :focus{color:#f7ce88;}
 .topFont {
   display: inline-block;float:left;padding:2.4em 15em;line-height:50px;position:relative;color:#000;
  }
