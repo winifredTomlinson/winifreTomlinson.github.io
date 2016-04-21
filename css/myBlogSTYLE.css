@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'ionicons';
-	src:url('fonts/ionicons.eot');
-	src:url('fonts/ionicons.eot?#iefix') format('embedded-opentype'),
-		url('fonts/ionicons.woff') format('woff'),
-		url('fonts/ionicons.ttf') format('truetype'),
-		url('fonts/ionicons.svg#ionicons') format('svg');
+	src:url('../fonts/ionicons.eot');
+	src:url('../fonts/ionicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ionicons.woff') format('woff'),
+		url('../fonts/ionicons.ttf') format('truetype'),
+		url('../fonts/ionicons.svg#ionicons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -168,7 +168,7 @@ position:absolute;margin-top:200px;float:left; }
 a.icon-down:link{color:#000;text-decoration:none;}
 a.icon-down:hover{color:#0099CC;cursor:pointer;}
 a.icon-down:visited{color:#000;text-decoration:none;}
-.top{width:100%;background:url(images/top1.jpg);overflow:hidden;display:block;position:absolute;top:630px;right:10px;font-family:"Lucida Console", Monaco, monospace;font-size:32px;font-weight:300;line-height:270px;float:left;text-align:center;}
+.top{width:100%;background:url(../images/top1.jpg);overflow:hidden;display:block;position:absolute;top:630px;right:10px;font-family:"Lucida Console", Monaco, monospace;font-size:32px;font-weight:300;line-height:270px;float:left;text-align:center;}
 .topFont3{z-index:99;}
 #txt1{-webkit-border-radius:5px;height:15px;float:right;margin-right:25px;margin-top:10px;background:#EEE;}
 .ball{float:left;position:absolute;border-radius:50%;-webkit-border-radius:50%;-ms-border-radius:50%;top:70px;left:43%;height:150px;width:150px;opacity:1;box-shadow:0 0 0 4px rgba(255,255,255,1);z-index:1;}
