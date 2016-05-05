@@ -99,7 +99,7 @@ function getXY(a, b, r, event)
 }
 
 var width = 1250,
-    height = 600;
+    height = window.innerHeight;
 	
 var nodes = d3.range(80).map(function() { return {radius: Math.random() * 12 + 4,x: 5*(Math.random() * 12 + 4),y:2*( Math.random() * 12 + 4)};}),
 
